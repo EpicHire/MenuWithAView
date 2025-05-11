@@ -75,8 +75,10 @@ public struct ContextMenuAccessoryTrackingAxis: OptionSet, Sendable {
 struct ContextMenuAccessoryConfiguration {
     var location: ContextMenuAccessoryLocation = .preview
     
+    // controls the attachment point
     var placement: ContextMenuAccessoryPlacement = .center
     
+    // controls alignment to attachment
     var alignment: ContextMenuAccessoryAlignment = .leading
     
     var trackingAxis: ContextMenuAccessoryTrackingAxis = [.xAxis, .yAxis]
