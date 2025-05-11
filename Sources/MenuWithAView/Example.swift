@@ -12,7 +12,10 @@ public struct MenuWithAView_Example: View {
     public init(){}
     
     public var body: some View {
-        Text("Hello")
+        RoundedRectangle(cornerRadius: 10)
+            .strokeBorder(Color.primary.opacity(0.6), lineWidth: 2)
+            .frame(width: 200, height: 100)
+            .contentShape(.contextMenuPreview, RoundedRectangle(cornerRadius: 10))
             .contextMenu {
                 Button {
                     

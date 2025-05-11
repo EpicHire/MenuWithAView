@@ -17,3 +17,6 @@ public extension View {
         .contextMenu(menuItems: menuItems)
     }
 }
+#Preview {
+    MenuWithAView_Example()
+}

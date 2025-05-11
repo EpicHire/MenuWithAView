@@ -40,3 +40,7 @@ class ContextMenuIdentifierUIView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+#Preview {
+    MenuWithAView_Example()
+}

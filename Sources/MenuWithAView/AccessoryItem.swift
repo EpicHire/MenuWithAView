@@ -77,11 +77,15 @@ struct ContextMenuAccessoryConfiguration {
     
     var placement: ContextMenuAccessoryPlacement = .center
     
-    var alignment: ContextMenuAccessoryAlignment = .trailing
+    var alignment: ContextMenuAccessoryAlignment = .leading
     
     var trackingAxis: ContextMenuAccessoryTrackingAxis = [.xAxis, .yAxis]
     
     var anchor: ContextMenuAccessoryAnchor {
         return ContextMenuAccessoryAnchor(attachment: placement.rawValue, alignment: alignment.rawValue)
     }
+}
+
+#Preview {
+    MenuWithAView_Example()
 }
