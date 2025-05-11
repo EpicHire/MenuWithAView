@@ -37,13 +37,6 @@ If you like this project, please consider giving it a ⭐️
 
 ---
 
-## Where to find me:  
-- here, obviously.  
-- [Twitter](https://x.com/AetherAurelia)  
-- [Threads](https://www.threads.net/@aetheraurelia)  
-- [Bluesky](https://bsky.app/profile/aethers.world)  
-- [LinkedIn](https://www.linkedin.com/in/willjones24)
-
 ## Where to find us
 
 |         | Aether | Seb |
@@ -51,7 +44,7 @@ If you like this project, please consider giving it a ⭐️
 | Twitter | [@AetherAurelia](https://x.com/AetherAurelia) | - |
 | Threads | [@aetheraurelia](https://www.threads.net/@aetheraurelia) | - |
 | Bluesky | [aethers.world](https://bsky.app/profile/aethers.world) | - |
-| LinkedIn| [willjones24](https://www.linkedin.com/in/willjones24) | - |
+| LinkedIn| [aether](https://www.linkedin.com/in/willjones24) | - |
 | GitHub  | here, obviously | - |
 | Website | - | - |
 
