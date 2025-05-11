@@ -1,6 +1,0 @@
-framework module ContextMenuAccessoryAnchor {
-  umbrella header "ContextMenuAccessoryAnchor.h"
-  export *
-
-  module * { export * }
-}

@@ -7,7 +7,7 @@
 
 import UIKit
 import SwiftUI
-import ContextMenuAccessoryAnchor
+import ContextMenuAccessoryStructs
 
 struct ContextMenuIdentifierView<Content: View>: UIViewRepresentable {
     let accessoryView: () -> Content
