@@ -12,6 +12,11 @@ public struct AccessoryItem<Content: View>: View {
     let configuration: Configuration
     let content: () -> Content
 
+    init(configuration: ContextMenuAccessoryConfiguration, content: @escaping () -> Content) {
+        self.configuration = configuration
+        self.content = content
+    }
+    
     public init(placement: Placement, content: @escaping () -> Content) {
         self.configuration = Configuration(placement: placement)
         self.content = content
@@ -72,7 +77,9 @@ public struct ContextMenuAccessoryTrackingAxis: OptionSet, Sendable {
     }
 }
 
-struct ContextMenuAccessoryConfiguration {
+struct ContextMenuAccessoryConfiguration: Identifiable {
+    let id: UUID = UUID()
+    
     var location: ContextMenuAccessoryLocation = .preview
     
     // controls the attachment point
