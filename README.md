@@ -2,7 +2,7 @@
   <img width="300" height="300" src="/assets/icon.png" alt="MenuWithAView Logo">
   <h1><b>MenuWithAView</b></h1>
   <p>
-    Add accessory views to `.contextMenu`s in SwiftUI.
+    MenuWithAView is a SwiftUI package that lets you add accessory views to your context menu interactions, with UIKit's private _UIContextMenuAccessoryView.
     <br>
     <i>Compatible with iOS 18 and later</i>
   </p>
@@ -21,7 +21,21 @@
   </a>
 </div>
 
+## **Demo**
+
+![Example](/assets/example1.gif)
+
 ---
+
+## Features
+
+- **DocC Documentation**
+
+---
+
+## **Acknowledgments**
+
+Special thanks to [@sebjvidal](https://github.com/sebjvidal) for [writing about  _UIContextMenuAccessoryView](https://sebvidal.com/blog/accessorise-your-context-menu-interactions/), and helping with the development of this package!
 
 ## License
 
