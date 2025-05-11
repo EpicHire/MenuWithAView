@@ -77,6 +77,7 @@ public struct ContextMenuAccessoryTrackingAxis: OptionSet, Sendable {
     }
 }
 
+/// Configuration for context menu accessories, including placement, location, alignment, and tracking axis.
 struct ContextMenuAccessoryConfiguration: Identifiable {
     let id: UUID = UUID()
     
