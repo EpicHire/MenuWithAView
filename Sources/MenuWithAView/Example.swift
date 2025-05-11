@@ -53,7 +53,7 @@ public struct MenuWithAView_Example: View {
     public var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading, spacing: 34) {
                     // Description
                     Text("Attach a view to your context menu with flexible placement, location, alignment, and tracking. Use the controls below and long-press the demo box to see it in action.")
                         .font(.subheadline)
@@ -90,6 +90,7 @@ public struct MenuWithAView_Example: View {
                                 .padding(16)
                         }
                         .frame(maxWidth: .infinity)
+                        .padding(.bottom, 10)
                     
                     HStack{
                         VStack(alignment: .center, spacing: 8) {
