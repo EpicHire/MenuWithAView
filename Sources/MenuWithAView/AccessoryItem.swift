@@ -8,7 +8,7 @@
 import SwiftUI
 import ContextMenuAccessoryStructs
 
-public struct AccessoryItem<Content: View>: View {
+struct AccessoryItem<Content: View>: View {
     let configuration: Configuration
     let content: () -> Content
 
@@ -17,12 +17,12 @@ public struct AccessoryItem<Content: View>: View {
         self.content = content
     }
     
-    public init(placement: Placement, content: @escaping () -> Content) {
+    init(placement: Placement, content: @escaping () -> Content) {
         self.configuration = Configuration(placement: placement)
         self.content = content
     }
     
-    public var body: some View {
+    var body: some View {
         content()
     }
 }
