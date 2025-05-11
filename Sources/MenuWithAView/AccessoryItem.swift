@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct ContextMenuAccessory<Content: View>: View {
+public struct AccessoryItem<Content: View>: View {
     let configuration: Configuration
     let content: () -> Content
 
@@ -21,7 +21,7 @@ public struct ContextMenuAccessory<Content: View>: View {
     }
 }
 
-extension ContextMenuAccessory {
+extension AccessoryItem {
     public typealias Location = ContextMenuAccessoryLocation
     
     public typealias Placement = ContextMenuAccessoryPlacement

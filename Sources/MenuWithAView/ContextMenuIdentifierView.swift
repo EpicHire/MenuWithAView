@@ -10,7 +10,7 @@ import SwiftUI
 import ContextMenuAccessoryStructs
 
 struct ContextMenuIdentifierView<Content: View>: UIViewRepresentable {
-    let accessoryView: () -> ContextMenuAccessory<Content>
+    let accessoryView: () -> AccessoryItem<Content>
     
     func makeUIView(context: Context) -> some UIView {
         let rootView = accessoryView()
