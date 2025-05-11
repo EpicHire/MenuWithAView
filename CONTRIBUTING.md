@@ -4,7 +4,7 @@ First off, thank you for your interest in contributing to MenuWithAView 🙏 You
 
 ## Code of Conduct
 
-Please read and follow the [Code of Conduct](./CODE_OF_CONDUCT.md). I’m committed to fostering an open, welcoming, and respectful community.
+Please read and follow the [Code of Conduct](./CODE_OF_CONDUCT.md). We're committed to fostering an open, welcoming, and respectful community.
 
 ## How to Report Issues
 
