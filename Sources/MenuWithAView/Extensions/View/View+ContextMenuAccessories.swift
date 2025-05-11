@@ -9,9 +9,9 @@ import SwiftUI
 import UIKit
 
 public extension View {
-    func contextMenu<MenuItems, Content>(@ViewBuilder menuItems: () -> MenuItems, @ViewBuilder accessories: @escaping () -> ContextMenuAccessory<Content>) -> some View where MenuItems : View, Content : View {        
+    func contextMenu<MenuItems, Content>(@ViewBuilder menuItems: () -> MenuItems, @ViewBuilder accessoryContent: @escaping () -> AccessoryItem<Content>) -> some View where MenuItems : View, Content : View {
         background {
-            ContextMenuIdentifierView(accessoryView: accessories)
+            ContextMenuIdentifierView(accessoryView: accessoryContent)
                 .accessibilityHidden(true)
         }
         .contextMenu(menuItems: menuItems)

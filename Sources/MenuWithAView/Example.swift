@@ -19,9 +19,8 @@ public struct MenuWithAView_Example: View {
                 } label: {
                     Label("Button", systemImage: "circle")
                 }
-
-            } accessories: {
-                ContextMenuAccessory(placement: .leading) {
+            } accessoryContent: {
+                AccessoryItem(placement: .leading) {
                     Text("Accessory View")
                 }
             }
