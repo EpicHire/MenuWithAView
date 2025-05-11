@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ContextMenuAccessoryStructs
 
 public struct ContextMenuAccessory<Content: View>: View {
     let configuration: Configuration
@@ -34,25 +35,25 @@ extension ContextMenuAccessory {
 }
 
 public enum ContextMenuAccessoryLocation: Int {
+    case background = 0
     case preview = 1
     case menu = 2
-    case background = 3
 }
 
-public enum ContextMenuAccessoryPlacement: Int {
+public enum ContextMenuAccessoryPlacement: UInt64 {
     case top = 1
     case leading = 2
     case center = 3
     case bottom = 4
-    case trailing = 5
+    case trailing = 8
 }
 
-public enum ContextMenuAccessoryAlignment: Int {
+public enum ContextMenuAccessoryAlignment: UInt64 {
     case top = 1
     case leading = 2
     case center = 3
     case bottom = 4
-    case trailing = 5
+    case trailing = 8
 }
 
 public struct ContextMenuAccessoryTrackingAxis: OptionSet, Sendable {
@@ -76,7 +77,11 @@ struct ContextMenuAccessoryConfiguration {
     
     var placement: ContextMenuAccessoryPlacement = .center
     
-    var alignment: ContextMenuAccessoryAlignment = .center
+    var alignment: ContextMenuAccessoryAlignment = .trailing
     
     var trackingAxis: ContextMenuAccessoryTrackingAxis = [.xAxis, .yAxis]
+    
+    var anchor: ContextMenuAccessoryAnchor {
+        return ContextMenuAccessoryAnchor(attachment: placement.rawValue, alignment: alignment.rawValue)
+    }
 }
