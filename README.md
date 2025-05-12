@@ -94,12 +94,12 @@ If you like this project, please consider giving it a ⭐️
 
 |         | Aether | Seb |
 |---------|----------------|------------------|
-| Twitter | [@AetherAurelia](https://x.com/AetherAurelia) | - |
+| Twitter | [@AetherAurelia](https://x.com/AetherAurelia) |  [@SebJVidal](https://x.com/SebJVidal) |
 | Threads | [@aetheraurelia](https://www.threads.net/@aetheraurelia) | - |
 | Bluesky | [aethers.world](https://bsky.app/profile/aethers.world) | - |
 | LinkedIn| [aether](https://www.linkedin.com/in/willjones24) | - |
-| GitHub  | here, obviously | - |
-| Website | - | - |
+| GitHub  | here, obviously | here!! |
+| Website | - | [sebvidal.com](https://sebvidal.com/) |
 
 
 ---
